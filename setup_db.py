@@ -23,8 +23,8 @@ def init_database():
     ''')
     
     # Insert a test user (Username: admin, Password: password123)
-    username = "admin2"
-    password = "password12"
+    username = "admin"
+    password = "password123"
     salt, pwd_hash = hash_password(password)
     
     try:
